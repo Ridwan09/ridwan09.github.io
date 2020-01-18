@@ -35,6 +35,7 @@ body {
 .headingName{
     font-family: 'Caveat';
     font-weight: 700;
+    font-size: 200px !important;
     text-transform: capitalize !important;
 }
 
