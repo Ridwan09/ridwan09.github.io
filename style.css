@@ -1287,6 +1287,14 @@ xclip
     margin: -20px auto;
 }
 
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
 .hoverbutton {
     background-color: #333333;
     position: absolute;
@@ -1297,8 +1305,8 @@ xclip
     left: 0;
     opacity: 0;
     right: 0;
-    width: 50px;
-    height: 50px;
+    /* width: 50px; */
+    /* height: 50px; */
     line-height: 50px;
     text-align: center;
     margin: -20px auto;
